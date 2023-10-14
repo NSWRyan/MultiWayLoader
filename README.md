@@ -20,5 +20,6 @@ mvn clean install -DskipTests=true
 * Change ./examples/pom.xml for the correct class for exec.
 * Run:
     ```
+    cd examples
     mvn package -DskipTests=true
     ```

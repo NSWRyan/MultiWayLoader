@@ -13,3 +13,12 @@ mvn clean install -DskipTests=true
 ```
 
 # Examples
+* Check the ./examples folder.
+* There are 2 examples:
+    * JdbcToFile
+    * JdbcToJdbc
+* Change ./examples/pom.xml for the correct class for exec.
+* Run:
+    ```
+    mvn package -DskipTests=true
+    ```
